@@ -5,3 +5,31 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
+- name: coluna_1
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Coluna 1
+- name: coluna_2
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Coluna 2
+- name: coluna_3
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Coluna 3
