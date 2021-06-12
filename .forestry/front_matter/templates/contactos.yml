@@ -33,3 +33,5 @@ fields:
     schema:
       format: html-blocks
   label: Coluna 3
+pages:
+- contactos.html
