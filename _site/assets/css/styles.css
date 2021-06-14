@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 html { overflow-x: hidden; }
 
-body { font-family: 'Work Sans', sans-serif !important; overflow-x: hidden; background-color: black !important; }
+body { font-family: 'Work Sans', sans-serif !important; overflow-x: hidden; background-color: black !important; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; }
 
 h4 { letter-spacing: 0.2vw; }
 
@@ -96,9 +96,14 @@ a:hover { text-decoration: underline !important; }
 /* contacts section */
 #contactos { background-color: black; color: white; margin: 12vh 6vw; }
 
-#contactos p { font-size: 0.6em; }
+#contactos p { font-size: 0.6em; line-height: 1; }
 
-#contactos h6 { font-size: 0.85em; }
+#contactos h6 { font-size: 0.95em; line-height: 1; }
+
+#contactos a { color: white; text-decoration: underline !important; }
+
+/* footer */
+.footer { background-color: black; border: 2px solid #FF4A6E; position: fixed; bottom: 0; left: 0; width: 100vw; color: white; display: flex; z-index: 20; justify-content: space-between; align-items: flex-end; padding: 1vw; }
 
 /*! Hamburgers @description Tasty CSS-animated hamburgers @author Jonathan Suh @jonsuh @site https://jonsuh.com/hamburgers @link https://github.com/jonsuh/hamburgers */
 .hamburger { padding: 15px 15px; display: inline-block; cursor: pointer; transition-property: opacity, filter; transition-duration: 0.15s; transition-timing-function: linear; font: inherit; color: inherit; text-transform: none; background-color: transparent; border: 0; margin: 0; overflow: visible; }
