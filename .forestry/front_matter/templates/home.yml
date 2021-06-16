@@ -29,6 +29,11 @@ fields:
     schema:
       format: html-blocks
   label: Percurso
+- name: imagem_percurso
+  type: file
+  config:
+    maxSize: 64
+  label: Imagem Percurso
 - name: pessoas
   type: textarea
   default: ''
