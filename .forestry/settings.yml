@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: index.html
+  label: Home
+  match: "**/*"
+- type: document
   path: contactos.html
   label: Contactos
 upload_dir: uploads
