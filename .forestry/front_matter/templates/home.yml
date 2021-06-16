@@ -20,3 +20,21 @@ fields:
     schema:
       format: html-blocks
   label: "+ info"
+- name: percurso
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Percurso
+- name: pessoas
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Pessoas
