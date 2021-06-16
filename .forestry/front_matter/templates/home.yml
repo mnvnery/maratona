@@ -38,3 +38,12 @@ fields:
     schema:
       format: html-blocks
   label: Pessoas
+- name: intervencoes
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Intervencoes
