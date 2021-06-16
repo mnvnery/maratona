@@ -168,7 +168,8 @@
 
 .footer
     background-color: black
-    border: 2px solid #FF4A6E
+    border-top: 2px solid #FF4A6E
+    border-bottom: 2px solid #FF4A6E
     position: fixed
     bottom: 0
     left: 0
@@ -177,17 +178,29 @@
     display: flex
     z-index: 9
     justify-content: space-between
-    align-items: flex-end
+    align-items: center
     padding: 1vw
 
-@media screen and(min-width: 835px)
+@media screen and(min-width: 1024px)
     .sobre-video
         width: 75%
     .percurso-width
         width: 75% 
 
+    .sign-link
+        width: 50%
+        text-align: center
 
-@media screen and(max-width: 835px)
+    .hashtag, .socials
+        width: 25%
+
+    .hashtag 
+        text-align: right
+    
+    .footer
+        padding: 1vw 2.5em
+
+@media screen and(max-width: 1024px)
     .sobre-texto
         margin-top: 5vh !important
         padding: 0
@@ -233,16 +246,20 @@
     .info-text 
         padding: 4vw 7vw 3vw 4vw
 
-    .hashtag
-        display: none
-
     .socials, .sign-link
         padding-top: 1vh
 
+    .hashtag
+        text-align: center
+        margin: 1vh 0
+
     .footer
-        flex-direction: column-reverse
+        flex-direction: column
         align-items: center
 
+    
+
+@media screen and(max-width: 835px)
     .menu
         width: 65vw
 
