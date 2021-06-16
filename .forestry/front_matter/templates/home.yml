@@ -47,3 +47,5 @@ fields:
     schema:
       format: html-blocks
   label: Intervencoes
+pages:
+- index.html
