@@ -72,6 +72,8 @@ a:hover { text-decoration: underline !important; }
 
 .percurso-texto { padding: 0 12vw 0 3vw; margin-bottom: 10vh; }
 
+.imagem-percurso { border: 2px solid black; width: 100%; }
+
 /* pessoas section */
 #pessoas { background-color: black; color: white; text-align: center; padding: 10vh 0; }
 
