@@ -1,0 +1,123 @@
+---
+layout: default
+---
+<div class="burger">
+    <button class="hamburger hamburger--squeeze" type="button">
+        <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+        </span>
+    </button>
+</div>
+    <div class="menu">
+        <ul>
+            <a href="#sobre" class="text-body"><li>SOBRE<br>O PROJETO</li></a>
+            <a href="#percurso" class="text-body"><li>O PERCURSO</li></a>
+            <a href="#pessoas" class="text-body"><li>PESSOAS QUE <br>CORRERAM NO <br>SEU TEMPO</a><p class="mini">(MINI-DOCUMENTÁRIOS)</p></li>
+            <a href="#intervenções" class="text-body"><li>INTERVENÇÕES<br>NO PERCURSO</li></a>
+            <li class="pink">>>INSCREVE-TE<<</li>
+            <a href="{{ site.baseurl }}/contactos" class="text-body equipa"><li>equipa/contatos</li></a>
+        </ul>
+    </div>
+
+<div class="eng-link"><h4>en</h4></div>
+<div class="mais-info hidden">
+    <div class="info-box pink">
+        <div class="info-close"><i class="ri-close-line"></i></div>
+        <div class="info-text">
+        <p>WE ARE RUNNING OUT OF TIME <br> - UMA MARATONA</p>
+        {{ page.more_info }}
+        </div>
+    </div>
+</div>
+<section id="hero">
+    <div class="d-flex justify-contnet-between align-items-bottom w-100">
+        <div class="hero-img-left"><img class="w-100" src="{{ site.baseurl }}/assets/img/hero-image_LEFT.png" alt=""></div>
+        <div class="align-self-end"><img class="logo" src="{{ site.baseurl }}/assets/img/logo_withimg.svg" alt="logo"></div>
+        <div class="hero-img-right"><img class="w-100" src="{{ site.baseurl }}/assets/img/hero-image_RIGHT.png" alt=""></div>
+    </div>
+</section>
+<section id="sobre">
+    <div class="d-lg-flex px-5 sobre">
+        <div class="sobre-video">
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/433937277" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+        <div class="w-100 sobre-texto">
+            <h4>Participa: Maratona 24.Jul.2021<br>
+                São Miguel, Açores</h4>
+                <br>
+            {{ page.sobre }}
+            <p class="more-info">+ info</p>
+        </div>
+    </div>
+</section>
+<section id="percurso">
+    <div class="d-lg-flex px-5 percurso">
+        <div class="w-100 percurso-texto">
+            <h4>O PERCURSO</h4>
+            <br>
+            {{ page.percurso }}
+        </div>
+        <div class="sobre-video">
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/433937277?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+    </div>
+
+</section>
+<section id="pessoas">
+    <div class="d-lg-flex px-5 pessoas">
+        <div class="terry">
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/433963372" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+        <div class="w-100 pessoas-texto">
+            <h4>PESSOAS QUE CORRERAM<br>
+                NO SEU TEMPO</h4>
+                <br>
+            {{ page.pessoas }}
+        </div>
+    </div>
+    <div class="d-lg-flex">
+        <div class="marsha">
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/433641152" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+        <div class="pussyriot">
+            <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/437207071" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+    </div>    
+    <div class="elizabeth">
+        <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/435789981" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
+</section>
+<section id="intervenções">
+    <div class="d-lg-flex px-5 intervenções">
+        <div class="w-100 percurso-texto">
+            <h4>INTERVENÇÕES <br> NO PERCURSO</h4>
+            <br>
+            {{ page.intervencoes }}
+        </div>
+        <div class="percurso-width">
+            <img src="{{ site.baseurl }}/assets/img/percurso1.png" alt="" class="percurso-img percurso1">
+        </div>
+    </div>
+    <div class="d-lg-flex">
+        <div class="percurso-padding">
+            <img src="{{ site.baseurl }}/assets/img/percurso2.png" alt="" class="paisagem percurso-img">
+        </div>
+        <div class="percurso-padding">
+            <img src="{{ site.baseurl }}/assets/img/percurso3.png" alt="" class="cultura percurso-img">
+        </div>
+    </div> 
+    <div class="percurso-padding">
+    <img src="{{ site.baseurl }}/assets/img/percurso4.png" alt="" class="bleeding percurso-img">
+    </div>
+    <a href="#hero" class="mt-5 text-white"><p>voltar ao topo ↑</p></a>
+    <div class="d-flex justify-content-center">
+        <a href="https://www.instagram.com/wearerunningoutoftime2021/" target="_blank" class="text-white"><i class="ri-instagram-fill mx-1"></i></a>
+        <a href="https://www.facebook.com/ilhasstudio/" target="_blank" class="text-white"><i class="ri-facebook-circle-fill mx-1"></i></a>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="socials">instagram, facebook</div>
+    <div class="sign-link"><h4 class="mb-0">>> <span class="pink">>></span> INSCRIÇÕES <span class="pink"><<</span> <<</h4></div>
+    <div class="hashtag"> #wearerunningoutoftime2021</div>
+</footer>
