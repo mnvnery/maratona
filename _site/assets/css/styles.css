@@ -24,7 +24,7 @@ a:hover { text-decoration: underline !important; }
 
 .pink:hover { color: #FF4A6E; }
 
-.bottom-menu { position: absolute; line-height: 0.8; }
+.bottom-menu { position: absolute; bottom: 0; line-height: 0.8; }
 
 .burger { position: fixed; z-index: 12; padding-top: 1vh; padding-left: 1vh; }
 
@@ -114,7 +114,7 @@ a:hover { text-decoration: underline !important; }
 
 @media screen and (min-width: 1024px) { .sobre-video { width: 75%; } .percurso-width { width: 75%; } .sign-link { width: 50%; text-align: center; } .hashtag, .socials { width: 25%; } .hashtag { text-align: right; } .footer { padding: 1vw 2.5em; } .mobile-socials { display: none; } }
 
-@media screen and (max-width: 1024px) { .sobre-texto { margin-top: 5vh !important; padding: 0; } .percurso-texto { padding: 0; margin-bottom: 5vh !important; } .pessoas-texto { padding: 0; margin: 5vh 0 !important; } .terry { width: 100%; padding: 0; } .marsha, .pussyriot, .elizabeth { width: 100%; padding: 2vh 3rem; margin: 0; } .percurso1, .paisagem, .cultura, .bleeding { width: 100% !important; margin: 0; padding: 0; } .percurso-padding { padding: 1vh 3rem; } .percurso-width { width: 100% !important; margin-bottom: 1vh; } .info-box { width: 80vw; } .mais-info { width: 100vw; } .info-close { font-size: 1.5em; } .info-text { padding: 4vw 7vw 3vw 4vw; } .socials, .sign-link { padding-top: 1vh; } .socials, .hashtag { display: none; } .mobile-socials { padding: 1vh 0; } .footer { flex-direction: column; align-items: center; } .menu li { margin-bottom: 3vh; font-size: 3vw; } .menu { width: 50vw; } .mini { font-size: 3vw; } .bottom-menu { bottom: 7vh; } }
+@media screen and (max-width: 1024px) { .sobre-texto { margin-top: 5vh !important; padding: 0; } .percurso-texto { padding: 0; margin-bottom: 5vh !important; } .pessoas-texto { padding: 0; margin: 5vh 0 !important; } .terry { width: 100%; padding: 0; } .marsha, .pussyriot, .elizabeth { width: 100%; padding: 2vh 3rem; margin: 0; } .percurso1, .paisagem, .cultura, .bleeding { width: 100% !important; margin: 0; padding: 0; } .percurso-padding { padding: 1vh 3rem; } .percurso-width { width: 100% !important; margin-bottom: 1vh; } .info-box { width: 80vw; } .mais-info { width: 100vw; } .info-close { font-size: 1.5em; } .info-text { padding: 4vw 7vw 3vw 4vw; } .socials, .sign-link { padding-top: 1vh; } .socials, .hashtag { display: none; } .mobile-socials { padding: 1vh 0; } .footer { flex-direction: column; align-items: center; } .menu li { margin-bottom: 3vh; font-size: 3vw; } .menu { width: 50vw; } .mini { font-size: 3vw; } .bottom-menu { position: static; } }
 
 @media screen and (max-width: 835px) { .menu { width: 65vw; } .menu li { margin-bottom: 3.5vh; font-size: 4.5vw; } .mini { font-size: 2.4vw; } }
 
