@@ -1,7 +1,7 @@
 title: We're Running Out Of Time
 description: >- # this means to ignore newlines until "baseurl:"
   WE ARE RUNNING OUT OF TIME é um projeto do ilhas estúdio que tem como objectivo a criação de uma maratona visual no dia 24 de Julho durante o festival Walk&Talk: uma prova, dividida em 4 percursos, que percorre trilhos e caminhos da ilha de São Miguel e no qual toda a gente pode participar a correr ou a caminhar. Uma maratona que é uma urgência e unirá a corrida a reivindicações, lutas e causas de todes aqueles que dela fizerem parte. 
-url: "wearerunningoutoftime.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://wearerunningoutoftime.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
