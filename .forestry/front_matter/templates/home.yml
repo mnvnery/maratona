@@ -20,7 +20,7 @@ fields:
     schema:
       format: markdown
   label: Sobre (Vimeo)
-  description: embed link do Vimeo para o vídeo
+  description: alterar aqui o embed link para o vídeo sobre
 - name: more_info
   type: textarea
   default: ''
