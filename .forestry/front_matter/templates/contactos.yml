@@ -35,5 +35,15 @@ fields:
     schema:
       format: html-blocks
   label: Coluna 3
+- name: faqs
+  type: file
+  config:
+    maxSize: 64
+  label: Faqs
+- name: regulamento
+  type: file
+  config:
+    maxSize: 64
+  label: Regulamento
 pages:
 - contactos.html
