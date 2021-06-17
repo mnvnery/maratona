@@ -11,6 +11,16 @@ fields:
     schema:
       format: html-blocks
   label: Sobre
+- name: sobre_vimeo
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Sobre (Vimeo)
+  description: embed link do Vimeo para o vídeo
 - name: more_info
   type: textarea
   default: ''
