@@ -57,10 +57,12 @@ fields:
   config:
     maxSize: 64
   label: FAQs
+  description: Fazer o upload do PDF
 - name: regulamento
   type: file
   config:
     maxSize: 64
   label: Regulamento
+  description: Fazer o upload do PDF
 pages:
 - index.html
