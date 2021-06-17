@@ -52,5 +52,15 @@ fields:
     schema:
       format: html-blocks
   label: Intervencoes
+- name: faqs
+  type: file
+  config:
+    maxSize: 64
+  label: FAQs
+- name: regulamento
+  type: file
+  config:
+    maxSize: 64
+  label: Regulamento
 pages:
 - index.html
