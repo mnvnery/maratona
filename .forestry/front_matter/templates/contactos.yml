@@ -6,7 +6,7 @@ fields:
   name: layout
   label: layout
   hidden: true
-- name: coluna_1
+- name: descricao
   type: textarea
   default: ''
   config:
@@ -14,10 +14,10 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
-  label: Coluna 1
+  label: Descrição
   description: Usar a opção 'heading 6' para o texto maior. Fica bold aqui no programa,
     mas depois não!
-- name: coluna_2
+- name: equipa
   type: textarea
   default: ''
   config:
@@ -25,8 +25,8 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
-  label: Coluna 2
-- name: coluna_3
+  label: Equipa
+- name: contacto
   type: textarea
   default: ''
   config:
@@ -34,7 +34,16 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
-  label: Coluna 3
+  label: Contacto
+- name: apoios
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Apoios
 - name: faqs
   type: file
   config:
