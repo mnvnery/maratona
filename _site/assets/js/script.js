@@ -21,4 +21,6 @@ $( ".item-km" ).click(function() {
     $(this).next().toggle();
     $(this).find('.arrow-percurso').toggleClass('ri-arrow-up-s-line');
     $(this).find('.arrow-percurso').toggleClass('ri-arrow-down-s-line');
+    $( ".item-info a" ).attr('target','_blank');
 });
+
