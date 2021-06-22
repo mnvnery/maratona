@@ -181,7 +181,7 @@ descricoes_percurso:
             <h4 class="text-center">O PERCURSO</h4>
             <br>
             <div class="text-center">{{ page.percurso }}</div>
-            {% for item in page.descricoes_percurso reversed %}
+            {% for item in page.descricoes_percurso %}
             <div class="text-left item-km">{{ item.km }}  <i class="arrow-percurso ri-arrow-up-s-line"></i></div>
             
             <div class="text-left mt-2 item-info">{{ item.info }}</div>
