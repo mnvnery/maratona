@@ -2,6 +2,10 @@
 label: Home
 hide_body: true
 fields:
+- name: imagens_home
+  type: image_gallery
+  config: {}
+  label: Imagens Home
 - name: sobre
   type: textarea
   default: ''
