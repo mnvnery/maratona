@@ -178,9 +178,14 @@ descricoes_percurso:
 <section id="percurso">
     <div class="d-lg-flex px-5 percurso">
         <div class="w-100 percurso-texto">
-            <h4>O PERCURSO</h4>
+            <h4 class="text-center">O PERCURSO</h4>
             <br>
-            {{ page.percurso }}
+            <div class="text-center">{{ page.percurso }}</div>
+            {% for item in page.descricoes_percurso reversed %}
+            <div class="text-left item-km">{{ item.km }}  <i class="arrow-percurso ri-arrow-up-s-line"></i></div>
+            
+            <div class="text-left mt-2 item-info">{{ item.info }}</div>
+            {% endfor %}
         </div>
         <div class="w-100">
             <img src="{{ page.imagem_percurso }}" alt="" class="imagem-percurso">
