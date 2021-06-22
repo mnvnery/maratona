@@ -64,7 +64,7 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Descrições Percurso
+  label: Descrições cada Percurso
 - name: imagem_percurso
   type: file
   config:
