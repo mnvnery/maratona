@@ -34,7 +34,7 @@ a:hover { text-decoration: underline !important; }
 
 .hamburger--squeeze.is-active .hamburger-inner::after { background-color: #FF4A6E !important; width: 30px; }
 
-#hero { position: relative; background-color: #FF4A6E; padding-top: 5vh; z-index: 1; width: 100vw; }
+.carousel-control-next-icon { background-image: url(asset_path("right.svg")); }
 
 .logo { width: 25vw; }
 
@@ -74,6 +74,8 @@ a:hover { text-decoration: underline !important; }
 
 .percurso-texto a, .pessoas-texto a, .sobre-texto a { color: white; }
 
+.percurso-texto a:hover { color: white; }
+
 .imagem-percurso { border: 2px solid black; width: 100%; }
 
 /* pessoas section */
@@ -103,7 +105,7 @@ a:hover { text-decoration: underline !important; }
 .bleeding { width: 23vw; margin-right: 58vw; }
 
 /* contacts section */
-#contactos { background-color: black; color: white; margin: 12vh 6vw; }
+#contactos { background-color: black; color: white; margin: 10vh 6vw; }
 
 #contactos p { font-size: 0.7em; line-height: 1.4; }
 
@@ -118,7 +120,7 @@ a:hover { text-decoration: underline !important; }
 
 @media screen and (min-width: 1024px) { .sobre-video { width: 75%; } .percurso-width { width: 75%; } .sign-link { width: 50%; text-align: center; } .hashtag, .socials { width: 25%; } .hashtag { text-align: right; } .footer { padding: 1vw 2.5em; } .mobile-socials { display: none; } }
 
-@media screen and (max-width: 1024px) { .sobre-texto { margin-top: 5vh !important; padding: 0; } .percurso-texto { padding: 0; margin-bottom: 5vh !important; } .pessoas-texto { padding: 0; margin: 5vh 0 !important; } .terry { width: 100%; padding: 0; } .marsha, .pussyriot, .elizabeth { width: 100%; padding: 2vh 3rem; margin: 0; } .percurso1, .paisagem, .cultura, .bleeding { width: 100% !important; margin: 0; padding: 0; } .percurso-padding { padding: 1vh 3rem; } .percurso-width { width: 100% !important; margin-bottom: 1vh; } .info-box { width: 80vw; } .mais-info { width: 100vw; } .info-close { font-size: 1.5em; } .info-text { padding: 4vw 7vw 3vw 4vw; } .socials, .sign-link { padding-top: 1vh; } .socials, .hashtag { display: none; } .mobile-socials { padding: 1vh 0; } .footer { flex-direction: column; align-items: center; } .menu li { margin-bottom: 3vh; font-size: 3vw; } .menu { width: 50vw; } .mini { font-size: 3vw; } .botttom-menu { position: static; } }
+@media screen and (max-width: 1024px) { .sobre-texto { margin-top: 5vh !important; padding: 0; } .percurso-texto { padding: 0; margin-bottom: 5vh !important; } .pessoas-texto { padding: 0; margin: 5vh 0 !important; } .terry { width: 100%; padding: 0; } .marsha, .pussyriot, .elizabeth { width: 100%; padding: 2vh 3rem; margin: 0; } .percurso1, .paisagem, .cultura, .bleeding { width: 100% !important; margin: 0; padding: 0; } .percurso-padding { padding: 1vh 3rem; } .percurso-width { width: 100% !important; margin-bottom: 1vh; } .info-box { width: 80vw; } .mais-info { width: 100vw; } .info-close { font-size: 1.5em; } .info-text { padding: 4vw 7vw 3vw 4vw; } .socials, .sign-link { padding-top: 1vh; } .socials, .hashtag { display: none; } .mobile-socials { padding: 1vh 0; } .footer { flex-direction: column; align-items: center; } .menu li { margin-bottom: 3vh; font-size: 3vw; } .menu { width: 50vw; } .mini { font-size: 3vw; } .bottom-menu { position: static; } }
 
 @media screen and (max-width: 835px) { .menu { width: 65vw; } .menu li { margin-bottom: 3.5vh; font-size: 4.5vw; } .mini { font-size: 2.4vw; } }
 
