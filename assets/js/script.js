@@ -9,7 +9,15 @@ $( ".more-info" ).click(function() {
     $(".mais-info").toggleClass('hidden');
     // Do something else, like open/close menu
 });
+$("#main-content").click(function() {
+    $(".menu").hide();
+    $( ".hamburger" ).removeClass("is-active");
+});
 
+$("#contactos").click(function() {
+    $(".menu").hide();
+    $( ".hamburger" ).removeClass("is-active");
+});
 
 $( ".info-close" ).click(function() {
     // Toggle class "is-active"
