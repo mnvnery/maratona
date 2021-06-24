@@ -4,12 +4,20 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: PT
 - type: document
   path: index.html
   label: Home
 - type: document
   path: contactos.html
   label: Contactos
+- type: heading
+  label: ENG
+- type: document
+  path: eng.html
+  label: Home (eng)
+  match: "**/*"
 upload_dir: assets/img
 public_path: assets/img
 front_matter_path: ''
