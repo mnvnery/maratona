@@ -43,7 +43,11 @@ a:hover { text-decoration: underline !important; }
 .black-banner { position: relative; bottom: 0; height: 12vh; background-color: black; z-index: 4; margin-top: -3vh; }
 
 /* eng-link */
-.eng-link { position: absolute; top: 2vh; right: 1.5vw; z-index: 2; color: white; }
+.eng-link { position: fixed; top: 2vh; right: 1.5vw; z-index: 10; color: white !important; }
+
+.eng-link a { color: white !important; }
+
+.eng-link a:hover { color: white !important; }
 
 /* mais info section */
 .hidden { display: none !important; }
@@ -59,7 +63,7 @@ a:hover { text-decoration: underline !important; }
 .more-info:hover { text-decoration: underline; }
 
 /* sobre section */
-#sobre { position: relative; background-color: black; color: white; text-align: center; padding: 10vh 0; z-index: 4; margin-top: -3vh; width: 100vw; }
+#sobre { position: relative; background-color: black; color: white; text-align: center; padding: 10vh 0; z-index: 4; width: 100vw; }
 
 .sobre-texto { padding: 0 5vw 0 15vw; }
 
