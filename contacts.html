@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<div class="burger">
+    <button class="hamburger hamburger--squeeze" type="button">
+        <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+        </span>
+    </button>
+</div>
+<div class="menu">
+    <ul>
+        <a href="{{ site.baseurl }}/eng/#sobre" class="text-body"><li>ABOUT<br>THE PROJECT</li></a>
+        <a href="{{ site.baseurl }}/eng/#percurso" class="text-body"><li>THE ROUTE</li></a>
+        <a href="{{ site.baseurl }}/eng/#pessoas" class="text-body"><li>PEOPLE THAT<br>RAN IN<br>THEIR TIME</a><p class="mini">(MINI-DOCUMENTÁRIOS)</p></li>
+        <a href="{{ site.baseurl }}/eng/#intervenções" class="text-body"><li>INTERVENTIONS<br>ON THE ROUTE</li></a>
+        <a href="https://myazorestrailrun.com/login.php?evento=3&om=1&login_bg_color=%23FF4A6E&login_logo=%2Fimg%2Flogos%2Feventos%2Fwandt_logo.png&url=http://myazorestrailrun.com/?evento=13" target="_blank" class="pink"><li>>>SIGN UP<<</li></a>
+        <div class="bottom-menu">
+            <a href="{{ site.baseurl }}/{{ page.faqs }}" target="_blank" class="text-body"><li class="mb-1">FAQs</li></a>
+            <a href="{{ site.baseurl }}/{{ page.regulamento }}" target="_blank" class="text-body"><li class="mb-1">Regulations</li></a>
+            <a href="{{ site.baseurl }}/contacts" class="text-body"><li>team/contacts</li></a>
+        </div>
+    </ul>
+</div>
+<main id="contactos">
+<div class="row">
+    <div class="col-sm col-md-6 col-lg-4">
+        {{ page.descricao }}
+    </div>
+    <div class="col-sm col-md-6 col-lg-4"></div>
+</div>
+<div class="border-white"></div>
+<div class="row">
+    <div class="col-sm col-md-6 col-lg-4">
+        {{ page.equipa }}
+    </div>
+    <div class="col-sm px-md-5 col-md-6 col-lg-4">
+        <p>
+            {{ page.apoios }}
+        </p>
+    </div>
+</div>
+<div class="border-white"></div>
+<div class="row">
+    <div class="col-sm col-md-6 col-lg-4">
+        {{ page.contacto }}
+    </div>
+
+</div>
+    
+</main>
