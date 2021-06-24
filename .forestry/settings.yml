@@ -17,11 +17,9 @@ sections:
 - type: document
   path: eng.html
   label: Home (eng)
-  match: "**/*"
 - type: document
   path: contacts.html
   label: Contacts (eng)
-  match: "**/*"
 upload_dir: assets/img
 public_path: assets/img
 front_matter_path: ''
