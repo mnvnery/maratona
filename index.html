@@ -87,8 +87,8 @@ intervencoes: "<p>Em colaboração com diversas associações da ilha de São Mi
   - Associação Contra as Dependências, Arrisca, Novo Dia - Associação para a Inclusão
   Social, As Cores dos Açores e Aurora Social.</p>"
 imagem_percurso: assets/img/w-t_percurso_4.png
-faqs: assets/img/wearerunningoutoftime_faqs.pdf
-regulamento: assets/img/wearerunningoutoftime_regulamento.pdf
+faqs: assets/img/wearerunningoutoftime_faqs_vf.pdf
+regulamento: assets/img/wearerunningoutoftime_regulamento_vf.pdf
 sobre_vimeo: ' <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/433937277"
   style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay;
   fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>'
@@ -130,10 +130,10 @@ descricoes_percurso:
 </div>
     <div class="menu">
         <ul>
-            <a href="#sobre" class="text-body"><li>SOBRE<br>O PROJETO</li></a>
-            <a href="#percurso" class="text-body"><li>O PERCURSO</li></a>
+            <a href="#sobre" class="text-body"><li>SOBRE</li></a>
+            <a href="#percurso" class="text-body"><li>DESCRIÇÃO <br>DO PERCURSO</li></a>
             <a href="#pessoas" class="text-body"><li>PESSOAS QUE <br>CORRERAM NO <br>SEU TEMPO</a><p class="mini">(MINI-DOCUMENTÁRIOS)</p></li>
-            <a href="#intervenções" class="text-body"><li>INTERVENÇÕES<br>NO PERCURSO</li></a>
+            <a href="#intervenções" class="text-body"><li>PINTAR<br>A PAISAGEM</a><p class="mini">(INTERVENÇÕES NO PERCURSO)</p></li>
             <a href="https://myazorestrailrun.com/login.php?evento=3&om=1&login_bg_color=%23FF4A6E&login_logo=%2Fimg%2Flogos%2Feventos%2Fwandt_logo.png&url=http://myazorestrailrun.com/?evento=13" target="_blank" class="pink"><li>>>INSCREVE-TE<<</li></a>
             <div class="bottom-menu">
                 <a href="{{ site.baseurl }}/{{ page.faqs }}" target="_blank" class="text-body"><li class="mb-1">FAQs</li></a>
@@ -143,8 +143,8 @@ descricoes_percurso:
         </ul>
     </div>
 
-<div class="eng-link"><a href="{{ site.baseurl }}/eng"><h4 class="text-white">en</h4></a></div>
 
+<div class="eng-link"><a href="{{ site.baseurl }}/eng"><h4 class="text-white">en</h4></a></div>
 
 <div class="mais-info hidden">
     <div class="info-box pink">
@@ -180,7 +180,7 @@ descricoes_percurso:
 <section id="percurso">
     <div class="d-lg-flex px-5 percurso">
         <div class="w-100 percurso-texto">
-            <h4 class="text-center">O PERCURSO</h4>
+            <h4 class="text-center">DESCRIÇÃO DO PERCURSO</h4>
             <br>
             <div class="text-center">{{ page.percurso }}</div>
             {% for item in page.descricoes_percurso reversed %}
@@ -222,7 +222,7 @@ descricoes_percurso:
 <section id="intervenções">
     <div class="d-lg-flex px-5 intervenções">
         <div class="w-100 percurso-texto">
-            <h4>INTERVENÇÕES <br> NO PERCURSO</h4>
+            <h4>PINTAR A<br> PAISAGEM</h4>
             <br>
             {{ page.intervencoes }}
         </div>

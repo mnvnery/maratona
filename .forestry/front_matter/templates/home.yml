@@ -101,4 +101,5 @@ fields:
   label: Regulamento
   description: Fazer o upload do PDF
 pages:
+- eng.html
 - index.html

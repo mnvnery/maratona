@@ -15,8 +15,8 @@ fields:
     schema:
       format: html-blocks
   label: Descrição
-  description: Usar a opção 'heading 6' para o texto maior. Fica bold aqui no programa,
-    mas depois não!
+  description: Clicando no icon 'Aa', usar a opção 'heading 6'  para o texto maior.
+    Fica bold aqui no programa, mas depois não!
 - name: equipa
   type: textarea
   default: ''
@@ -56,3 +56,4 @@ fields:
   label: Regulamento
 pages:
 - contactos.html
+- contacts.html
