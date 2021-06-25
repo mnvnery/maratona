@@ -175,11 +175,11 @@ descricoes_percurso:
             {% for item in page.descricoes_percurso reversed %}
             <div class="text-left item-km">{{ item.km }}  <i class="arrow-percurso ri-arrow-up-s-line"></i></div>
             
-            <div class="text-left mt-2 item-info">{{ item.info }}</div>
+            <div class="text-left mt-2 item-info">{{ item.info }}<img src="{{site.baseurl}}/{{ item.imagem }}" alt="" class="mb-3 imagem-km"></div>
             {% endfor %}
         </div>
         <div class="w-100">
-            <img src="{{ page.imagem_percurso }}" alt="" class="imagem-percurso">
+            <img src="{{site.baseurl}}/{{ page.imagem_percurso }}" alt="" class="imagem-percurso">
         </div>
     </div>
 
