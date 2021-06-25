@@ -80,6 +80,8 @@ a:hover { text-decoration: underline !important; }
 
 .imagem-percurso { border: 2px solid black; width: 100%; }
 
+.imagem-route { width: 100%; }
+
 .item-info a { text-decoration: underline !important; }
 
 .item-info { display: none; border-bottom: 1px solid white; }
