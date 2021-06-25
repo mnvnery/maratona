@@ -60,6 +60,11 @@ fields:
       schema:
         format: html-blocks
     label: Info
+  - name: imagem
+    type: file
+    config:
+      maxSize: 64
+    label: Imagem
   config:
     min: 
     max: 
