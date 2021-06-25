@@ -80,6 +80,8 @@ a:hover { text-decoration: underline !important; }
 
 .imagem-percurso { border: 2px solid black; width: 100%; }
 
+.imagem-route { width: 100%; }
+
 .item-info a { text-decoration: underline !important; }
 
 .item-info { display: none; border-bottom: 1px solid white; }
@@ -127,6 +129,8 @@ a:hover { text-decoration: underline !important; }
 .footer { background-color: black; border-top: 2px solid #FF4A6E; border-bottom: 2px solid #FF4A6E; position: fixed; bottom: 0; left: 0; width: 100vw; color: white; display: flex; z-index: 9; justify-content: space-between; align-items: center; padding: 1vw; }
 
 .border-white { border-top: 1px solid white; width: 100vw; margin: 2vh 0; }
+
+.imagem-km { max-width: 100%; }
 
 @media screen and (min-width: 1024px) { .sobre-video { width: 75%; } .percurso-width { width: 75%; } .sign-link { width: 50%; text-align: center; } .hashtag, .socials { width: 25%; } .hashtag { text-align: right; } .footer { padding: 1vw 2.5em; } .mobile-socials { display: none; } }
 
